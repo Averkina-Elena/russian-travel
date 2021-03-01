@@ -1,14 +1,14 @@
-.lead__image-container{
+.lead__figure{
     margin: 0px;
 }
 
 @media (min-width: 1280px){
-    .lead__image-container{
+    .lead__figure{
         min-width: 984px;
     }
 }
 @media (min-width: 1024px){
-    .lead__image-container{
+    .lead__figure{
         max-width: 928px;
         margin: 0px auto;
     }

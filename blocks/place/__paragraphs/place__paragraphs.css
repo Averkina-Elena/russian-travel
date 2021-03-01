@@ -1,9 +1,11 @@
 .place__paragraphs{
-    padding: 0px 16px 0px 16px;
+    padding: 0px 16px;
 }
+
+
 
 @media (min-width: 768px){
     .place__paragraphs{
-        padding: 0;
+        padding: 0px;
     } 
 }

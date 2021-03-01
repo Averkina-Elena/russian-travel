@@ -2,14 +2,15 @@
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax(0, 1fr));
     grid-template-columns:  repeat(auto-fit, minmax(248px, 1fr));
-    margin: 0 auto;
-    padding: 78px 16px 0px 16px;
+    margin: auto;
+    padding: 64px 16px 0px 16px;
     gap: 12px;
 }
 
 @media (min-width: 768px){
     .photo-grid{
-       padding: 92px 24px 0px 24px;
+        gap: 16px;
+       padding: 88px 24px 0px 24px;
     }
 }
 @media (min-width: 1024px){

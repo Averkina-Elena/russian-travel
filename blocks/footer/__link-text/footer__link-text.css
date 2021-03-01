@@ -4,7 +4,14 @@
     line-height: 1;
     text-decoration: none;
     color: #fff;
+    transition: opacity .5s ease;
 }
+
+.footer__link-text:hover{
+    opacity: .8;
+    color: #aaaaaa;
+ }
+ 
 @media (min-width: 768px){
     .footer__link-text{
         font-size: 16px;

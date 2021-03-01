@@ -5,7 +5,7 @@
     flex-direction: column;
     position: relative;
     justify-content: center;
-    background-image: url("./cover-trains.jpg");
+    background-image: url('../../images/cover-trains.jpg');
     background-size: cover;
 }
 
@@ -18,12 +18,12 @@
     bottom: 0;
     left: 0;
     opacity: .3;
-    transition: opacity .2s ease;
+    transition: opacity .5s ease;
     
 }
 
 .cover:hover::before{
-    opacity: .7;
+    opacity: 0.8;
 }
 @media (min-width: 768px){
     .cover{

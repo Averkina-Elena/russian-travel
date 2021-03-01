@@ -5,8 +5,12 @@
     color: #fff;
     font-size: 14px;
     line-height: 1;
+    text-decoration: none;
+    transition: opacity .5s ease;
 }
-
+.footer__copyright:hover{
+    opacity: .4;
+}
 @media (min-width: 768px){
     .footer__copyright{
         margin-top: 0;
