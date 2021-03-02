@@ -9,8 +9,7 @@
 
 .footer__link-text:hover{
     opacity: .8;
-    color: #aaaaaa;
- }
+}
  
 @media (min-width: 768px){
     .footer__link-text{

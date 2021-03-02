@@ -11,13 +11,8 @@
         margin-right: 0;
     }
 }
-@media (min-width: 425px){
+@media (min-width: 320px){
     .footer__link-list{
-        margin-bottom: 32px;
-    }
-}
- @media (max-width: 425px){
-     .footer__link-list{
         margin-bottom: 32px;
     }
 }

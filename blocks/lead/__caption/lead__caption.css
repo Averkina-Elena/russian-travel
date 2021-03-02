@@ -6,16 +6,16 @@
     line-height: 1.4;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    
-}
-@media (min-width: 1024px){
-    .lead__caption{
-        padding-left: 0px;
-    }
 }
 
 @media (min-width: 768px){
     .lead__caption{
         padding-left: 24px;
+    }
+}
+
+@media (min-width: 1024px){
+    .lead__caption{
+        padding-left: 0px;
     }
 }
